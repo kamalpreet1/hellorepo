@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+
+
+group :development do
+  gem 'annotate', '2.5.0'
+end
+
+
+
 gem 'rails', '3.2.11'
 gem 'execjs'
 gem 'therubyracer'
@@ -8,6 +16,7 @@ gem 'rspec-rails','2.11.0'
 gem 'guard-rspec', '1.2.1'
 gem 'guard-spork', '1.2.0'
 gem 'spork', '0.9.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 gem 'bootstrap-sass', '2.1'
 
@@ -29,7 +38,7 @@ gem 'uglifier', '>= 1.0.3'
   
 end
 group :test do
- 
+   
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
 end 
