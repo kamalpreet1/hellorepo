@@ -33,4 +33,3 @@ describe "Static pages" do
     it { should have_selector('title', text: full_title('Contact')) }
   end
 end
-

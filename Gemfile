@@ -38,7 +38,7 @@ gem 'uglifier', '>= 1.0.3'
   
 end
 group :test do
-   
+  gem 'factory_girl_rails', '4.1.0' 
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
 end 
