@@ -3,7 +3,8 @@
 
 <div class="row">
   <div class="span6 offset3">
-  	<%= render 'shared/error_messages' %>
+  	 <%= form_for(@user) do |f| %>
+  	<%= render 'shared/error_messages', object: f.object %>
     
     <%= form_for(@user) do |f| %>
 
@@ -21,5 +22,6 @@
 
       <%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
     <% end %>
+    <%end%>
   </div>
 </div>
